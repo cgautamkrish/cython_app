@@ -3,5 +3,5 @@ from Cython.Build import cythonize
 
 setup(
 	name = 'Gautam\'s App',
-	ext_modules = cythonize("cython.pyx"),
+	ext_modules = cythonize("hello.pyx"),
 )
